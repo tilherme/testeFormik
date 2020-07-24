@@ -30,11 +30,7 @@ function App() {
     <Formik 
     validationSchema={schema}
     onSubmit= {onSubmit}
-
-    initialValues={{
-      name: '',
-      email: '',
-    }}
+  
     render={({ isvalid,setFieldValue })=>(
       <Form>
         <div className="form-control-group">
