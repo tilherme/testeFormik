@@ -30,7 +30,7 @@ function App() {
     <Formik 
     validationSchema={schema}
     onSubmit= {onSubmit}
-    validateOnMount
+
     initialValues={{
       name: '',
       email: '',
