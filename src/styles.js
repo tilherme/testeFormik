@@ -3,6 +3,7 @@ export const FormStyled = styled.div`
 width: 100px;
 margin-left:500px;
 margin-top: 80px;
+
 `
 export const Btn = styled.button`
     position:absolute;
